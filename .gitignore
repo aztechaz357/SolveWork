@@ -1,0 +1,3 @@
+# 手動モードで転記する内容
+.solve/outbox/
+__pycache__/
