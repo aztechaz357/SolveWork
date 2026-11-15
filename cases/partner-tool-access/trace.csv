@@ -1,0 +1,20 @@
+ID,上流,根拠,確認,状態,案件
+SIT-001,,brief.md 依頼,利用者の依頼文そのもの,仮;確認済,partner-tool-access
+SIT-002,,brief.md 依頼からの推測,なし,仮;未確認(利用者に現状を未確認),partner-tool-access
+SIT-003,,なし (依頼文に記載なし),なし,仮;未確認(利用者に目的と具体例を未確認),partner-tool-access
+SIT-004,,brief.md 制約;利用者の決定(未提示),なし,仮;未確認(利用者が未提示),partner-tool-access
+SIT-005,,brief.md 制約;利用者の決定(未提示),なし,仮;未確認(利用者が未提示),partner-tool-access
+SIT-006,,brief.md 制約;利用者の決定(未提示),なし,仮;未確認(規程が未提示),partner-tool-access
+SIT-007,,なし (対象ツール未特定),なし,仮;未確認(対象ツール未特定),partner-tool-access
+SIT-008,,brief.md 期限,なし,仮;未確認(利用者が未提示),partner-tool-access
+SIT-009,,なし (推測の候補のみ),なし,仮;未確認(情報システム部門に未確認),partner-tool-access
+SIT-010,,brief.md 決めてほしい相手;利用者の決定,利用者の決定で決める相手と確認,仮;確認済(決める人であること)/未確認(関心と懸念),partner-tool-access
+SIT-011,,brief.md 決めてほしい相手;利用者の決定,利用者の決定で決める相手と確認,仮;確認済(決める人であること)/未確認(関心と懸念),partner-tool-access
+SIT-012,,なし,なし,仮;未確認(利用者が未提示),partner-tool-access
+SIT-013,,なし (推測),なし,仮;未確認(推測),partner-tool-access
+SIT-014,,なし (推測),なし,仮;未確認(推測),partner-tool-access
+SIT-015,,なし (推測),なし,仮;未確認(推測),partner-tool-access
+SIT-016,,なし,なし,仮;未確認(利用者が未提示),partner-tool-access
+ISS-001,SIT-001;SIT-002;SIT-003,,なし,仮;未確認(利用者に未提示),partner-tool-access
+ISS-002,SIT-004;SIT-005;SIT-006;SIT-007;SIT-009;SIT-011;SIT-015,,なし,仮;未確認(利用者に未提示),partner-tool-access
+ISS-003,SIT-001;SIT-008;SIT-010;SIT-011;SIT-012;SIT-013;SIT-014;SIT-016,,なし,仮;未確認(利用者に未提示),partner-tool-access

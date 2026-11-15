@@ -1,0 +1,13 @@
+default_mode: lite       # lite | standard
+tracker: none          # 案件の置き場所。github | manual | none
+audience: ""   # いつも決める相手と関係部門。例: 部長、情報システム部門、法務、調達
+doc_format: "1 枚 + 補足"   # 提案資料の形。社内の様式があれば library に登録する
+library_dir: ""          # 参考資料の索引。使うなら .solve/library
+docs:                    # 成果物の名称と場所。呼び方と置き場所に合わせて変える
+  SIT: {name: 状況整理, path: cases/{case}/situation.md}
+  ISS: {name: 論点, path: cases/{case}/issues.md}
+  OPT: {name: 選択肢と評価, path: cases/{case}/options.md}
+  ARG: {name: 説得の筋道, path: cases/{case}/argument.md}
+  DOC: {name: 提案資料, path: cases/{case}/proposal.md}
+  PLN: {name: 実行計画, path: cases/{case}/plan.md}
+agent_skills: {}         # エージェントに追加で読ませるスキル。例: {<エージェント名>: [.github/skills/<名前>/SKILL.md]}
